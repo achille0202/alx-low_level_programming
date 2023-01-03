@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * *_memset - fills memory with a constant byte.
  * @n: number of bytes.
