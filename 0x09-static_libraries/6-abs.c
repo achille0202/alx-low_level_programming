@@ -4,14 +4,20 @@
  * _abs - function that computes the absolute
  *       value of an integer
  *
- * @n: takes in integer type input for function
+ * @i: take input valaues for the function
  *
  * Return: Always 0 (Success)
 */
 
-int _abs(int n)
+int _abs(int i)
 {
-	if (n < 0)
-		n = (-1) * n;
-	return (n);
+	/**
+	 * if int value is a negative
+	 * multiply by -1 to get a positive value
+	*/
+	if (i < 0)
+		i = (-1) * i;
+
+	return (i);
+
 }
